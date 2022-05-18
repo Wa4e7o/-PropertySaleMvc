@@ -20,5 +20,13 @@
 
         public Dealer Dealer { get; set; }  
 
+        public int RentId { get; set; }
+
+        public Rent Rent { get; set; }  
+
+        public int ForSellId { get; set; }
+
+        public ForSell  ForSell { get; set; }   
+
     }
 }
